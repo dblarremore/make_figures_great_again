@@ -45,10 +45,24 @@
 <a id="python-usage-example" class="anchor" href="#python-usage-example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Python usage example</h3>
 
 <pre><code># Make a plot with the "neck" color palette (top of this webpage)
-code example here
+import matplotlib.pyplot as plt
+import make_figures_great_again
+fig, (ax_left, ax_right) = plt.subplots(1, 2, figsize=(6,3))
+fractions = [0.5,0.05,0.15,0.05,0.15,0.1,]
+
+# Import some terrific colors
+terrific_colors = make_figures_great_again.the_best_colors.neck_6.mpl_colors
+
+# Default (Ugly, just awful)
+ax_left.pie(fractions)  
+
+# The greatest, terrific colors
+ax_right.pie(fractions, colors=terrific_colors,)
+
+plt.show()
 </code></pre>
 
-<p><img align="center" src="https://raw.githubusercontent.com/dblarremore/make_figures_great_again/master/before.jpg" width="240px">→<img align="center" src="https://raw.githubusercontent.com/dblarremore/make_figures_great_again/master/after.jpg" width="240px"></p>
+<p><img align="center" src="https://raw.githubusercontent.com/dblarremore/make_figures_great_again/master/great_pie.jpg" width="432px"></p>
 
 <h3>
 <a id="adobe-installation-and-use" class="anchor" href="#adobe-installation-and-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Adobe installation and use</h3>
