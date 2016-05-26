@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: make-figures-great-again
+Version: 0.2dev
+Summary: Color palettes for Python
+Home-page: https://www.donaldjtrump.com/
+Author: author
+Author-email: author@email.com
+License: UNKNOWN
+Description: Make Figures Great Again
+        
+        Thanks to `palettable <https://jiffyclub.github.io/palettable/>`_, upon whose shoulders we stand, hoping to make plots great again.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Scientific/Engineering :: Visualization

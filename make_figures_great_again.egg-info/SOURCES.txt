@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+ez_setup.py
+setup.cfg
+setup.py
+make_figures_great_again/__init__.py
+make_figures_great_again.egg-info/PKG-INFO
+make_figures_great_again.egg-info/SOURCES.txt
+make_figures_great_again.egg-info/dependency_links.txt
+make_figures_great_again.egg-info/requires.txt
+make_figures_great_again.egg-info/top_level.txt
+make_figures_great_again/the_best_colors/__init__.py
+make_figures_great_again/the_best_colors/the_best_colors.py
+make_figures_great_again/the_best_functions/__init__.py
+make_figures_great_again/the_best_functions/the_best_functions.py
